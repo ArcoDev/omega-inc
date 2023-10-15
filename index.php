@@ -2,11 +2,8 @@
     session_start();
     error_reporting(0);
     $nameUser = $_SESSION['email'];
-    var_dump($nameUser);
     if($nameUser === null || $nameUser === '') {
-      //header("location:login.php");
-      echo 'redirigir a login';
-      die();
+      header("location:login.php");
     }
 ?>
 <!DOCTYPE HTML>

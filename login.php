@@ -36,9 +36,8 @@
           </div>
         </div>
         <div class="card-footer text-muted d-flex justify-content-end">
-          <button type="button" class="btn btn-primary btn-lg">
-            <a class="text-decoration-none text-white">Login</a>
-          </button>
+          <input name="btnIngresar" type="submit" value="Iniciar Sesion" class="btn btn-primary btn-lg">
+          </input>
         </div>
       </form>
     </div>

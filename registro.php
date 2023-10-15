@@ -33,7 +33,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputName" class="form-label float-start">Nombre</label>
-                        <input type="email" name="name" class="form-control" id="inputEmail"
+                        <input type="text" name="name" class="form-control" id="inputEmail"
                             aria-describedby="nameHelp" placeholder="Nombre Usuario">
                     </div>
                     <div class="mb-3">

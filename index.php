@@ -1,6 +1,6 @@
 <?php
     //session_start();
-    $nameUser = $_SESSION['nombre'];
+    $nameUser = $_SESSION['email'];
     var_dump($nameUser);
 ?>
 <!DOCTYPE HTML>

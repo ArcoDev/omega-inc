@@ -10,26 +10,43 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 offset-md-3 mt-5">
-                <h2>Registro de Usuarios</h2>
-                <form action="registrar.php" method="POST">
-                    <div class="mb-3">
-                        <label for="correo" class="form-label">Correo Electrónico</label>
-                        <input type="email" class="form-control" id="correo" name="correo" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" name="nombre" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="contrasena" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" id="contrasena" name="contrasena" required>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Registrar</button>
-                </form>
+    <div class="container d-flex justify-content-center align-items-center caja-login">
+        <div class="card text-center card-login shadow-lg">
+            <div class="card-header w-100 bg-white d-flex align-items-center justify-content-between">
+                <div class="contenedor-titulo">
+                    <h1>Registro de usuarios:</h1>
+                </div>
+                <div class="contenedor-img">
+                    <img src="logos\logo_01.bmp" class="mx-auto d-block img-thumbnail img-login">
+                </div>
             </div>
+            <form method="post" action="">
+                <?php
+                include("./includes/conection.php");
+                include("./includes/controller.php");
+                ?>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label float-start">Email address</label>
+                        <input type="email" name="email" class="form-control" id="inputEmail"
+                            aria-describedby="emailHelp" placeholder="Email Address">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputName" class="form-label float-start">Nombre</label>
+                        <input type="email" name="name" class="form-control" id="inputEmail"
+                            aria-describedby="nameHelp" placeholder="Nombre Usuario">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label float-start">Password</label>
+                        <input type="password" name="password" class="form-control" id="inputPassword"
+                            placeholder="Password">
+                    </div>
+                </div>
+                <div class="card-footer text-muted d-flex justify-content-end">
+                    <input name="btnIngresar" type="submit" value="Registrar Usuario" class="btn btn-primary btn-lg">
+                    </input>
+                </div>
+            </form>
         </div>
     </div>
 

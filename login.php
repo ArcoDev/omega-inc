@@ -23,24 +23,26 @@
           <img src="logos\logo_01.bmp" class="mx-auto d-block img-thumbnail img-login">
         </div>
       </div>
-      <div class="card-body">
-        <form>
+      <form method="get">
+        <div class="card-body">
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label float-start">Email address</label>
-            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email Address" required>
+            <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+              placeholder="Email Address" required>
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label float-start">Password</label>
-            <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+            <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password" required>
           </div>
-        </form>
-      </div>
-      <div class="card-footer text-muted d-flex justify-content-end">
-        <button type="button" class="btn btn-primary btn-lg">
-          <a href="./01_Main.html" class="text-decoration-none text-white">Login</a>
-        </button>
-      </div>
+        </div>
+        <div class="card-footer text-muted d-flex justify-content-end">
+          <button type="button" class="btn btn-primary btn-lg">
+            <a href="./01_Main.html" class="text-decoration-none text-white">Login</a>
+          </button>
+        </div>
+      </form>
     </div>
   </div>
 </body>
+
 </html>

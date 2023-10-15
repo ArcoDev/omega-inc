@@ -1,5 +1,4 @@
 <?php
-    include './includes/sesion.php';
     session_start();
     var_dump(session_start());
     error_reporting(0);

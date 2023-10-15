@@ -1,4 +1,5 @@
 <?php
+    include './includes/sesion.php';
     if(!empty($_POST['btnIngresar'])) {
         if (empty($_POST['email']) && empty($_POST['password'])) {
             echo '<div class="alert alert-danger m-31">Todos los campos con obligatorios!!!</div>';

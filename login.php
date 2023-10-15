@@ -44,7 +44,8 @@
             <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password">
           </div>
         </div>
-        <div class="card-footer text-muted d-flex justify-content-end">
+        <div class="card-footer text-muted w-100 d-flex justify-content-between">
+          <span class="btn btn-success"><a class="text-decoration-none text-white" href="registro.php">Registro Usuario</a></span>
           <input name="btnIngresar" type="submit" value="Iniciar Sesion" class="btn btn-primary btn-lg">
           </input>
         </div>

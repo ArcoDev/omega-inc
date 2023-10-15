@@ -41,7 +41,7 @@
       </ul>
     </div>
   </div>
-  <div class="d-flex align-items-start border">
+  <div class="d-flex align-items-start border mt-2">
     <div class="nav flex-column nav-pills me-3 vh-100 border" id="v-pills-tab" role="tablist"
       aria-orientation="vertical">
       <button class="nav-link text-uppercase mb-2 active" id="v-pills-Info-tab" data-bs-toggle="pill"

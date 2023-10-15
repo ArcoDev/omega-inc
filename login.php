@@ -32,11 +32,11 @@
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label float-start">Email address</label>
             <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
-              placeholder="Email Address" required>
+              placeholder="Email Address">
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label float-start">Password</label>
-            <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password" required>
+            <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password">
           </div>
         </div>
         <div class="card-footer text-muted d-flex justify-content-end">

@@ -1,7 +1,7 @@
 <?php
     session_start();
     $nameUser = $_SESSION['email'];
-    // var_dump($nameUser);
+    var_dump($nameUser);
 ?>
 <!DOCTYPE HTML>
 <html>

@@ -20,7 +20,7 @@
 
     if(!empty($_POST['btnRegistrar'])) {
         if (empty($_POST['email']) && empty($_POST['password']) && empty($_POST['name'])) {
-            echo '<div class="alert alert-danger m-31">Todos los campos con obligatorios!!!</div>';
+            echo '<div class="alert alert-danger m-3">Todos los campos con obligatorios!!!</div>';
         } else {
             $email = $_POST['email'];
             $name = $_POST['name'];

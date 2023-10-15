@@ -1,9 +1,10 @@
 <?php
-    $host = 'localhost';
-    $user = 'u534174931_arcodev';
-    $password = '@et;^=r][4P';
-    $databese = 'u534174931_omega';
-    $port = '3306';
-    $conection = new mysqli($host, $user, $password, $databese, $port);
-    $conection->set_charset('utf8');
-?>
+
+    if(!empty($_POST['btnIngresar'])) {
+        if (empty($_POST['email']) && empty($_POST['password'])) {
+            echo "Todos los campos son obligatorios!!!";
+        } else {
+            # code...
+        }
+        
+    }

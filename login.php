@@ -23,7 +23,11 @@
           <img src="logos\logo_01.bmp" class="mx-auto d-block img-thumbnail img-login">
         </div>
       </div>
-      <form method="get">
+      <form method="post" action="">
+        <?php
+          include("./includes/conection.php");
+          include("./includes/controller.php");
+        ?>
         <div class="card-body">
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label float-start">Email address</label>

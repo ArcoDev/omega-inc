@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="card-footer text-muted w-100 d-flex justify-content-between">
-                    <button class="btn btn-success"><a class="text-decoration-none text-white" href="index.html">Inicia Sesión</a></button>
+                    <!-- <span class="btn btn-success"><a class="text-decoration-none text-white" href="index.html">Inicia Sesión</a></span> -->
                     <input name="btnRegistrar" type="submit" value="Registrar Usuario" class="btn btn-primary btn-lg">
                     </input>
                 </div>

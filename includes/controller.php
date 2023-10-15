@@ -8,7 +8,7 @@
             $pass = $_POST['password'];
             $sql = $conection->query(" select * from usuarios where correo = '$email' and contrasena = '$pass'");
             if ($data = $sql->fetch_object()) {
-                header("location:index.html");
+                header("location:index.php");
             } else {
                 echo '<div class="alert alert-danger m-31">Acceso denegado!!!</div>';
             }

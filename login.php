@@ -37,7 +37,7 @@
         </div>
         <div class="card-footer text-muted d-flex justify-content-end">
           <button type="button" class="btn btn-primary btn-lg">
-            <a href="./01_Main.html" class="text-decoration-none text-white">Login</a>
+            <a class="text-decoration-none text-white">Login</a>
           </button>
         </div>
       </form>

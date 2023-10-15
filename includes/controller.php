@@ -2,7 +2,7 @@
     include './includes/sesion.php';
     if(!empty($_POST['btnIngresar'])) {
         if (empty($_POST['email']) && empty($_POST['password'])) {
-            echo '<div class="alert alert-danger m-31">Todos los campos con obligatorios!!!</div>';
+            echo '<div class="alert alert-danger m-3">Todos los campos con obligatorios!!!</div>';
         } else {
             $email = $_POST['email'];
             $pass = $_POST['password'];
@@ -10,7 +10,7 @@
             if ($data = $sql->fetch_object()) {
                 header("location:index.php");
             } else {
-                echo '<div class="alert alert-danger m-31">Acceso denegado!!!</div>';
+                echo '<div class="alert alert-danger m-3">Acceso denegado!!!</div>';
             }
         }
     }

@@ -27,14 +27,14 @@
       <img src="logos\logo_01.bmp" class="mx-auto d-block img-login">
     </div>
   </div>
-  <div class="w-100 d-flex justify-content-end m-1">
+  <div class="w-100 d-flex justify-content-end mx-2 mr-3">
     <div class="dropdown">
       <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
         aria-expanded="false">
         Usuario: <?php echo $nameUser ?>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-        <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
+        <li><a class="dropdown-item" href="login.php?cerrar_sesion=true">Cerrar Sesión</a></li>
       </ul>
     </div>
   </div>

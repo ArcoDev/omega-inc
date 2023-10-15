@@ -1,3 +1,8 @@
+<?php 
+  if(isset($_GET['cerrar_sesion'])) {
+    $_SESSION = array();
+  }
+?>
 <!DOCTYPE HTML>
 <html>
 

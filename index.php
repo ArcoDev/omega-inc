@@ -30,7 +30,7 @@
       <img src="logos\logo_01.bmp" class="mx-auto d-block img-login">
     </div>
   </div>
-  <div class="w-100 d-flex justify-content-end mx-2 mr-3">
+  <div class="w-100 d-flex justify-content-end pr-5">
     <div class="dropdown">
       <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
         aria-expanded="false">

@@ -42,7 +42,8 @@
                             placeholder="Password">
                     </div>
                 </div>
-                <div class="card-footer text-muted d-flex justify-content-end">
+                <div class="card-footer text-muted w-100 d-flex justify-content-between">
+                    <a class="text-decoration-none btn btn-success" href="index.html">Inicia Sesión</a>
                     <input name="btnRegistrar" type="submit" value="Registrar Usuario" class="btn btn-primary btn-lg">
                     </input>
                 </div>

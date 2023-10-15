@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="card-footer text-muted d-flex justify-content-end">
-                    <input name="btnIngresar" type="submit" value="Registrar Usuario" class="btn btn-primary btn-lg">
+                    <input name="btnRegistrar" type="submit" value="Registrar Usuario" class="btn btn-primary btn-lg">
                     </input>
                 </div>
             </form>

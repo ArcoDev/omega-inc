@@ -74,9 +74,9 @@
         <h3>Información:</h3>
       </div>
       <div class="tab-pane fade" id="v-pills-Automatico" role="tabpanel" aria-labelledby="v-pills-Automatico-tab">
-        <p>Automatico</p>
+        <h3>Automatico</h3>
         <div class="col-12 d-flex justify-content-center align-items-center flex-column mt-5">
-          <div>
+          <div class="d-flex flex-column gap-3">
             <label>MAN/AUTO</label>
             <img id="myImage" src="indicators/03_automatico/lpa_on_01.png" style="width:100px">
           </div>

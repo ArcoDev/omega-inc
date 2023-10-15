@@ -24,10 +24,7 @@
             $pass = $_POST['password'];
             $sql = $conection->query("INSERT INTO usuarios (correo, nombre, contrasena) VALUES ('$email', '$name', '$pass')");
             if ($sql === true) {
-                echo '<div class="alert alert-success mt-2">
-                        Se ha guardado correctamente!!! <br>
-                        <a href="index.html">Inicia sesion para entrar al sistema!</a>
-                    </div>';
+                echo '<div class="alert alert-success mt-2">Se ha guardado correctamente!!!</div>';
             } else {
                 echo '<div class="alert alert-danger mt-2">No se pudo guardar, verifica los datos!!!</div>';
             }

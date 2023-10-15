@@ -1,3 +1,8 @@
+<?php
+    //session_start();
+    $nameUser = $_SESSION['name'];
+    var_dump($nameUser);
+?>
 <!DOCTYPE HTML>
 <html>
 

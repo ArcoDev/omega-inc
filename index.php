@@ -27,6 +27,21 @@
       <img src="logos\logo_01.bmp" class="mx-auto d-block img-login">
     </div>
   </div>
+  <div class="w-100">
+    <li class="dropdown user user-menu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <span class="hidden-xs">Hola:</span>
+      </a>
+      <ul class="dropdown-menu">
+        <li class="user-footer">
+          <div class="pull-right">
+            <a href="login.php?cerrar_sesion=true" class="btn btn-success  btn-flat">Cerrar
+              Sesion</a>
+          </div>
+        </li>
+      </ul>
+    </li>
+  </div>
   <div class="d-flex align-items-start border">
     <div class="nav flex-column nav-pills me-3 vh-100 border" id="v-pills-tab" role="tablist"
       aria-orientation="vertical">
